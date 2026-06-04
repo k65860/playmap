@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "NanumSquareRound";
+}
+main {
+  padding: 20px;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* 스크롤바 설정*/
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+  height: 5px;
+}
+/* 스크롤바 막대 설정*/
+::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+}
+
+/* 스크롤바 뒷 배경 설정*/
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+@keyframes flash-animation {
+  0% {
+    background-color: #f64e7e;
+  }
+  50% {
+    background-color: #ff6c96;
+  }
+  100% {
+    background-color: #f64e7e;
+  }
+}

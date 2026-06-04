@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="website" property="og:type" />
+    <meta content="http://playmap.한국" property="og:url" />
+    <meta content="플레이맵" property="og:title" />
+    <meta
+      content="기질 분석을 통한 우리아이 알아가기"
+      property="og:description"
+    />
+    <meta
+      content="http://playmap.xn--3e0b707e/public/thumb.png"
+      property="og:image"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/images/favicon.ico"
+    />
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      Kakao.init("25f5222255245173f601b0a50a2b02c0");
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
