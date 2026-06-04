@@ -1,0 +1,9 @@
+.swagger-ui .topbar {
+  display: none;
+}
+.swagger-ui .models {
+  display: none;
+}
+.swagger-ui .curl-command {
+  display: none;
+}

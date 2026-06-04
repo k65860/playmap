@@ -1,0 +1,29 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "210.126.8.208",
+      "port": 6187,
+      "driver": "PostgreSQL",
+      "name": "안트드론",
+      "database": "liandev",
+      "username": "lianuser",
+      "password": "li@an$06!!"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "139.150.69.140",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "플레이맵",
+      "group": "밸런스플레이",
+      "username": "root",
+      "database": "app",
+      "password": "eps3353244!!"
+    }
+  ]
+}
