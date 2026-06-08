@@ -184,11 +184,12 @@
 playmap
 ├── front-end
 │   ├── src
-│   │   ├── components
-│   │   ├── pages
 │   │   ├── api
-│   │   ├── styles
-│   │   └── types
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── hooks
+│   │   ├── layouts
+│   │   └── pages
 │   └── package.json
 │
 ├── back-end
