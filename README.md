@@ -1,6 +1,5 @@
 # Playmap
-
-> 아이의 기질과 놀이 키워드를 기반으로 맞춤형 놀이활동을 추천하고 기록할 수 있는 서비스
+아이의 기질과 놀이 키워드를 기반으로 맞춤형 놀이활동을 추천하고 기록할 수 있는 서비스
 
 <br />
 
@@ -165,25 +164,21 @@
 
 ## 화면 구성
 
-> 아래 이미지는 프로젝트 화면 캡처로 교체해주세요.
-
 ### 캘린더 화면
 
-![calendar](./docs/calendar.png)
+<img width="204" height="430" alt="playmap-01" src="https://github.com/user-attachments/assets/565ab2b0-0609-4c0b-adb1-cca396020bcc" />
 
 ### 기록 생성 바텀시트
 
-![bottom-sheet](./docs/bottom-sheet.png)
+<img width="203" height="434" alt="playmap-02" src="https://github.com/user-attachments/assets/876b0a47-b84f-44b0-87a9-bf48ee7998d8" />
 
 ### 키워드 선택 및 추천 활동 표시
 
-![keyword-recommend](./docs/keyword-recommend.png)
+<img width="1048" height="1069" alt="playmap-03" src="https://github.com/user-attachments/assets/9a837205-5219-402e-92f3-63df968607f4" />
 
 <br />
 
 ## 폴더 구조
-
-> 실제 프로젝트 구조에 맞게 수정해주세요.
 
 ```bash
 playmap
@@ -206,8 +201,6 @@ playmap
 <br />
 
 ## 실행 방법
-
-> 실제 package manager와 scripts에 맞게 수정해주세요.
 
 ### Frontend
 
